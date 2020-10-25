@@ -1,0 +1,40 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-stars {
+  width: 6.185546875em;
+}
+
+.icon-stars1 {
+  width: 6.22265625em;
+}
+
+.icon-ball {
+  width: 0.9755859375em;
+}
+
+.icon-be {
+  width: 1.025390625em;
+}
+
+.icon-figma {
+  width: 0.6552734375em;
+}
+
+.icon-insta {
+  width: 0.9755859375em;
+}

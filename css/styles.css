@@ -1,0 +1,201 @@
+/* spartan-regular - latin */
+@font-face {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/spartan-v2-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/spartan-v2-latin-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/spartan-v2-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/spartan-v2-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/spartan-v2-latin-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/spartan-v2-latin-regular.svg#Spartan") format("svg"); /* Legacy iOS */
+}
+/* spartan-700 - latin */
+@font-face {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/spartan-v2-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/spartan-v2-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/spartan-v2-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/spartan-v2-latin-700.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/spartan-v2-latin-700.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/spartan-v2-latin-700.svg#Spartan") format("svg"); /* Legacy iOS */
+}
+
+:root {
+  --main-text-cl: #070707;
+  --secondary-text-cl: #828282;
+  --secondary-bg-cl: #f6f6f6;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: var(--main-text-cl);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 970px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  /* outline: 1px solid tomato; */
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.link {
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  font-weight: 700;
+  color: var(--main-text-cl);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.gray-bg {
+  background-color: var(--secondary-bg-cl);
+}
+
+.header-link {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--secondary-text-cl);
+}
+
+.header-line {
+  border-bottom: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.hero {
+  padding-top: 40px;
+  padding-bottom: 105px;
+}
+
+.hero-box {
+  position: relative;
+}
+
+.hero-content {
+  display: flex;
+  align-items: flex-end;
+}
+
+.page-tittle {
+  margin-bottom: 30px;
+  margin-right: 300px;
+  font-size: 47px;
+  line-height: 1.25;
+}
+.section-tittle {
+  font-size: 34px;
+  line-height: 1.23;
+}
+
+.hero-text {
+  margin-bottom: 38px;
+}
+
+.hero-lang {
+  position: absolute;
+  display: flex;
+  top: 70px;
+  right: 0;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #828282;
+
+  transform: rotate(-90deg);
+}
+
+.about-me-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.skill-tittle {
+  margin-bottom: 70px;
+}
+
+.slills-description {
+  margin-bottom: 80px;
+}
+
+.skill-item {
+  width: calc(100% / 4 - 80px);
+  height: 100%;
+}
+
+.skill-text {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  line-height: 1.21;
+  font-weight: 700;
+  color: var(--secondary-text-cl);
+}
+.figma-text {
+  margin-bottom: 57px;
+}
