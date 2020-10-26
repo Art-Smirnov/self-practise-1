@@ -65,7 +65,7 @@ p {
 }
 
 .container {
-  width: 970px;
+  width: 967px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -125,7 +125,7 @@ p {
 }
 
 .header-line {
-  border-bottom: 1px solid #828282;
+  border-bottom: 1px solid var(--secondary-text-cl);
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
@@ -166,7 +166,7 @@ p {
   font-size: 16px;
   line-height: 20px;
 
-  color: #828282;
+  color: var(--secondary-text-cl);
 
   transform: rotate(-90deg);
 }
@@ -198,4 +198,61 @@ p {
 }
 .figma-text {
   margin-bottom: 57px;
+}
+
+.portfolio-tittle {
+  margin-bottom: 47px;
+}
+
+.portfolio-item:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+.portfolio-link {
+  color: var(--main-text-cl);
+}
+
+.portfolio-img {
+  margin-bottom: 45px;
+}
+
+.text-box {
+  display: inline-block;
+  width: 270px;
+}
+
+.footer-text {
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 13px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 85px;
+  display: block;
+  color: white;
+  background-color: var(--main-text-cl);
+  min-width: 180px;
+  border-radius: 25px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.footer-list {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 340px;
+}
+
+.social-item {
+  margin-bottom: 45px;
+  width: 40px;
+  height: 40px;
+}
+
+.social-text {
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--secondary-text-cl);
 }

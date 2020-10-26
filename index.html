@@ -15,11 +15,11 @@
       <div class="container header-line">
         <nav>
           <ul class="list flexbox">
-            <li><a class="link header-link" href="">Home</a></li>
-            <li><a class="link header-link" href="">About me</a></li>
-            <li><a class="link header-link" href="">Skills</a></li>
-            <li><a class="link header-link" href="">Portfolio</a></li>
-            <li><a class="link header-link" href="">Contacts</a></li>
+            <li><a class="link header-link" href="#">Home</a></li>
+            <li><a class="link header-link" href="#about">About me</a></li>
+            <li><a class="link header-link" href="#skills">Skills</a></li>
+            <li><a class="link header-link" href="#portfolio">Portfolio</a></li>
+            <li><a class="link header-link" href="#contacts">Contacts</a></li>
           </ul>
         </nav>
       </div>
@@ -42,13 +42,14 @@
             <a class="link" href="">ENG </a>
           </div>
 
-          <img src="./img/photos/hero.jpg" alt="guy with cap" with="1200" />
+          <img src="./img/photos/hero.jpg" alt="guy with cap" />
         </div>
       </section>
 
-      <section class="section gray-bg about-me">
+      <section id="about" class="section gray-bg about-me">
         <div class="container">
           <h2 class="section-tittle">About me</h2>
+
           <ul class="list">
             <li class="about-me-item">
               Hi, I'm Denis – UX/UI designer from Minsk. <br />
@@ -66,7 +67,7 @@
         </div>
       </section>
 
-      <section class="section skill">
+      <section id="skills" class="section skill">
         <div class="container">
           <h2 class="section-tittle skill-tittle">Skills</h2>
           <p class="slills-description">I work in such programs as</p>
@@ -119,7 +120,79 @@
           </ul>
         </div>
       </section>
+
+      <section id="portfolio" class="section gray-bg portfolio">
+        <div class="container">
+          <h2 class="portfolio-tittle">Portfolio</h2>
+          <ul class="list">
+            <li class="portfolio-item">
+              <img class="portfolio-img" src="./img/photos/portfolio-1.jpg" alt="Feshion site" />
+              <a class="portfolio-link" href="#">Online fashion store - Homepage</a>
+            </li>
+
+            <li class="portfolio-item">
+              <img class="portfolio-img" src="./img/photos/portfolio-2.jpg" alt="Reebok site" /><a
+                class="portfolio-link"
+                href="#"
+                >Reebok Store - Concept</a
+              >
+            </li>
+
+            <li class="portfolio-item">
+              <img class="portfolio-img" src="./img/photos/portfolio-3.jpg" alt="Braun landing page" /><a
+                class="portfolio-link"
+                href="#"
+                >Braun Landing Page - Concept</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+
+    <footer>
+      <section id="contacts" class="section">
+        <div class="container">
+          <h2 class="section-tittle">Contacts</h2>
+          <div class="text-box footer-text"><p>Want to know more or just chat? You are welcome!</p></div>
+
+          <button class="btn">Send message</button>
+          <ul class="list footer-list">
+            <li class="social-item">
+              <a href="#"
+                ><svg width="40px" height="40px">
+                  <use href="./img/icons/icomoon/sprite.svg#icon-in"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#"
+                ><svg width="40px" height="40px">
+                  <use href="./img/icons/icomoon/sprite.svg#icon-insta"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#">
+                <svg width="40px" height="40px">
+                  <use href="./img/icons/icomoon/sprite.svg#icon-be"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#"
+                ><svg width="40px" height="40px">
+                  <use href="./img/icons/icomoon/sprite.svg#icon-ball"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <p class="social-text">
+            Like me on <br />
+            LinkedIn, Instagram, Behance, Dribble
+          </p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
