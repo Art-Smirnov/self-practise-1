@@ -27,6 +27,7 @@
   --main-text-cl: #070707;
   --secondary-text-cl: #828282;
   --secondary-bg-cl: #f6f6f6;
+  --accent-cl: #052aff;
 }
 
 html {
@@ -212,6 +213,11 @@ p {
   color: var(--main-text-cl);
 }
 
+.portfolio-link:hover,
+.portfolio-link:focus {
+  color: var(--accent-cl);
+}
+
 .portfolio-img {
   margin-bottom: 45px;
 }
@@ -239,6 +245,11 @@ p {
   cursor: pointer;
 }
 
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-cl);
+}
+
 .footer-list {
   display: inline-flex;
   justify-content: space-between;
@@ -251,8 +262,25 @@ p {
   height: 40px;
 }
 
+.social-icon:hover,
+.social-icon:focus {
+  fill: var(--accent-cl);
+}
+
 .social-text {
   font-size: 14px;
   line-height: 1.21;
   color: var(--secondary-text-cl);
+}
+
+.social-link {
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--secondary-text-cl);
+  text-decoration: none;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: var(--accent-cl);
 }
